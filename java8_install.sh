@@ -1,7 +1,5 @@
-#!/bin/bash
-
 echo 'Add OpenJDK repo'
-echo 'deb http://ppa.launchpad.net/openjdk-r/ppa/ubuntu trusty main' | sudo tee -a /etc/apt/sourcess.list
+echo 'deb http://ppa.launchpad.net/openjdk-r/ppa/ubuntu trusty main' | sudo tee -a /etc/apt/sources.list.d/c9-java-env.list
 sudo apt-get update
 echo 'Install OpenJDK8'
 sudo apt-get install -y openjdk-8-jdk
