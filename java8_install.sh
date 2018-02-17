@@ -22,7 +22,9 @@ echo  'Install Gradle'
 export GRADLE_HOME=/home/ubuntu/.sdkman/candidates/gradle/current
 echo 'export GRADLE_HOME=/home/ubuntu/.sdkman/candidates/gradle/current' >> ~/.profile
 
+echo '##########################################################'
 echo 'Java8 development environment installation complete.'
+echo 'Please open a new terminal.'
 echo 'If you would like to develop application,'
 echo '$ gradle init --type java-library'
 echo 'Library'
